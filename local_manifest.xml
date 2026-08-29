@@ -36,4 +36,9 @@
 
     <project path="vendor/gms" name="akram-arc/proprietary_vendor_gms" remote="gh" revision="A-16" clone-depth="1" />
 
+
+    <!-- sign_keys -->
+    <project path="vendor/lineage-priv" name="akram-arc/keys" remote="gh" revision="main" />
+
+
 </manifest> 
