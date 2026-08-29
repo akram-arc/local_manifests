@@ -32,4 +32,8 @@
     <project path="hardware/mediatek" name="akram-arc/hardware_mediatek" remote="cb" revision="lineage" clone-depth="1" />
 
 
+     <!-- Gms -->                                                          
+
+    <project path="vendor/gms" name="akram-arc/proprietary_vendor_gms" remote="gh" revision="A-16" clone-depth="1" />
+
 </manifest> 
