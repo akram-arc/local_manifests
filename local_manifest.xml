@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>                                         
+                                                                              
+<manifest>                                                                     
+
+    <!-- Remotes -->                                                           
+
+    <remote name="gh" fetch="https://github.com/" />                           
+
+    <remote name="cb" fetch="https://codeberg.org/" />                   
+
+
+                                                                               
+    <!-- Device / Kernel -->                                                   
+
+    <project path="device/realme/RM6785" name="akram-arc/android_device_realme_RM6785" remote="gh" revision="lineage-23.2" clone-depth="1" />                                 
+
+    <project path="kernel/realme/mt6785" name="akram-arc/android_kernel_realme_mt6785" remote="gh" revision="lineage-23.2" clone-depth="1" />                 
+                                                                        
+
+    <!-- Proprietary Vendor -->                                                
+
+    <project path="vendor/realme/RM6785" name="akram-arc/android_vendor_realme_RM6785" remote="gh" revision="lineage-23.2" clone-depth="1" />                 
+
+                                                                               
+    <!-- Sepolicy -->                                                          
+
+    <project path="device/mediatek/sepolicy_vndr" name="akram-arc/device_mediatek_sepolicy_vndr" remote="cb" revision="lineage" clone-depth="1" />                           
+
+                                                                               
+    <!-- Hardware -->                                                          
+
+    <project path="hardware/mediatek" name="akram-arc/hardware_mediatek" remote="cb" revision="lineage" clone-depth="1" />
+
+
+</manifest> 
