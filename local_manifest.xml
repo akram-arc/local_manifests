@@ -41,4 +41,8 @@
     <project path="vendor/lineage-priv" name="akram-arc/keys" remote="gh" revision="main" />
 
 
+    <!-- Oppo_Camera -->
+    <project path="vendor/oppo/camera" name="akram-arc/proprietary_vendor_oppo_camera" remote="gh" revision="main" />
+
+
 </manifest> 
