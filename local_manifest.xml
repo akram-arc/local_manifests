@@ -12,29 +12,29 @@
                                                                                
     <!-- Device / Kernel -->                                                   
 
-    <project path="device/realme/RM6785" name="akram-arc/android_device_realme_RM6785" remote="gh" revision="lineage-23.2" clone-depth="1" />                                 
+    <project path="device/realme/nemo" name="akram-arc/android_device_realme_RM6785" remote="gh" revision="16.0" clone-depth="1" />                                 
 
-    <project path="kernel/realme/mt6785" name="akram-arc/android_kernel_realme_mt6785" remote="gh" revision="lineage-23.2" clone-depth="1" />                 
+    <project path="kernel/realme/nemo" name="akram-arc/android_kernel_realme_mt6785" remote="gh" revision="sixteen" clone-depth="1" />                 
                                                                         
 
     <!-- Proprietary Vendor -->                                                
 
-    <project path="vendor/realme/RM6785" name="akram-arc/android_vendor_realme_RM6785" remote="gh" revision="lineage-23.2" clone-depth="1" />                 
+    <project path="vendor/realme/nemo" name="akram-arc/android_vendor_realme_RM6785" remote="gh" revision="sixteen" clone-depth="1" />                 
 
                                                                                
     <!-- Sepolicy -->                                                          
 
-    <project path="device/mediatek/sepolicy_vndr" name="akram-arc/device_mediatek_sepolicy_vndr" remote="cb" revision="lineage" clone-depth="1" />                           
+    <project path="device/mediatek/sepolicy_vndr" name="yaap/device_mediatek_sepolicy_vndr" remote="gh" revision="sixteen" clone-depth="1" />                           
 
                                                                                
     <!-- Hardware -->                                                          
 
-    <project path="hardware/mediatek" name="akram-arc/hardware_mediatek" remote="cb" revision="lineage" clone-depth="1" />
+    <project path="hardware/mediatek" name="yaap/hardware_mediatek" remote="gh" revision="sixteen" clone-depth="1" />
 
 
      <!-- Gms -->                                                          
 
-    <project path="vendor/gms" name="akram-arc/proprietary_vendor_gms" remote="gh" revision="A-16" clone-depth="1" />
+    <project path="vendor/gms" name="akram-arc/proprietary_vendor_gms" remote="gh" revision="sixteen" clone-depth="1" />
 
 
     <!-- sign_keys -->
@@ -42,7 +42,7 @@
 
 
     <!-- Oppo_Camera -->
-    <project path="vendor/oppo/camera" name="akram-arc/proprietary_vendor_oppo_camera" remote="gh" revision="main" />
+    <project path="vendor/oppo/camera" name="akram-arc/proprietary_vendor_oppo_camera" remote="gh" revision="sixteen" />
 
 
 </manifest> 
