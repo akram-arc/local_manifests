@@ -6,20 +6,17 @@
 
     <remote name="gh" fetch="https://github.com/" />                           
 
-    <remote name="cb" fetch="https://codeberg.org/" />                   
 
-
-                                                                               
     <!-- Device / Kernel -->                                                   
 
-    <project path="device/realme/nemo" name="akram-arc/android_device_realme_RM6785" remote="gh" revision="16.0" clone-depth="1" />                                 
+    <project path="device/realme/nemo" name="akram-arc/android_device_realme_nemo" remote="gh" revision="lineage-23.2" clone-depth="1" />                                 
 
-    <project path="kernel/realme/nemo" name="akram-arc/android_kernel_realme_mt6785" remote="gh" revision="sixteen" clone-depth="1" />                 
+    <project path="kernel/realme/nemo" name="akram-arc/android_kernel_realme_nemo" remote="gh" revision="lineage-23.2" clone-depth="1" />                 
                                                                         
 
     <!-- Proprietary Vendor -->                                                
 
-    <project path="vendor/realme/nemo" name="akram-arc/android_vendor_realme_RM6785" remote="gh" revision="sixteen" clone-depth="1" />                 
+    <project path="vendor/realme/nemo" name="akram-arc/proprietary_vendor_realme_nemo" remote="gh" revision="lineage-23.2" clone-depth="1" />                 
 
                                                                                
     <!-- Sepolicy -->                                                          
@@ -40,9 +37,6 @@
     <!-- sign_keys -->
     <project path="vendor/lineage-priv" name="akram-arc/keys" remote="gh" revision="main" />
 
-
-    <!-- Oppo_Camera -->
-    <project path="vendor/oppo/camera" name="akram-arc/proprietary_vendor_oppo_camera" remote="gh" revision="sixteen" />
 
 
 </manifest> 
